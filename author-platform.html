@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Author Platform Optimization | Edigha Francisca Literary Solutions</title>
+<meta name="description" content="What Amazon Author Central actually is, why most author pages lose readers after the first book, and what it costs an author to leave that page unexamined.">
+<meta name="author" content="Edigha Francisca Literary Solutions">
+<link rel="canonical" href="https://example.com/services/author-platform.html">
+<link rel="icon" type="image/png" href="../fransisca.png">
+<link rel="apple-touch-icon" href="../fransisca.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Edigha Francisca Literary Solutions">
+<meta property="og:title" content="Author Platform Optimization | Edigha Francisca Literary Solutions">
+<meta property="og:description" content="What Amazon Author Central actually is, and what it costs an author to leave that page unexamined.">
+<meta property="og:url" content="https://example.com/services/author-platform.html">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Inter+Tight:wght@300;400;500;600&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add('js');</script>
+<style>
+:root{
+  --ink:#0A0908;
+  --ink-2:#111010;
+  --charcoal:#171514;
+  --charcoal-2:#1E1B19;
+  --oxblood:#5A0F1A;
+  --oxblood-deep:#38070E;
+  --oxblood-bright:#8E2030;
+  --oxblood-soft:#BE4B57;
+  --gold:#B08D52;
+  --gold-soft:#D6BA86;
+  --cream:#EFE6D6;
+  --ivory:#F7F1E6;
+  --paper:#FBF7EF;
+  --text-ink:#141110;
+  --text-body:#4A423A;
+  --text-mute:#7C7268;
+  --cream-mute:#A79C8B;
+  --rule-dark:rgba(239,230,214,.14);
+  --rule-dark-strong:rgba(239,230,214,.28);
+  --rule-light:rgba(20,17,16,.14);
+  --rule-light-strong:rgba(20,17,16,.24);
+  --serif:'Fraunces',Georgia,'Times New Roman',serif;
+  --sans:'Inter Tight',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+  --maxw:1340px;
+  --gutter:clamp(20px,4.6vw,72px);
+  --ease:cubic-bezier(.16,1,.3,1);
+  --ease-soft:cubic-bezier(.25,.46,.45,.94);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{
+  margin:0;
+  background:var(--ink);
+  color:var(--cream);
+  font-family:var(--sans);
+  font-size:16px;
+  line-height:1.7;
+  font-weight:300;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  overflow-x:hidden;
+  text-rendering:optimizeLegibility;
+  font-kerning:normal;
+}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+h1,h2,h3,h4,h5,p,ul,ol,figure,blockquote,figcaption{margin:0}
+ul,ol{padding:0;list-style:none}
+table{border-collapse:collapse;width:100%}
+::selection{background:var(--oxblood);color:var(--cream)}
+:focus-visible{outline:2px solid var(--gold-soft);outline-offset:4px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.skip-link{
+  position:absolute;top:-100px;left:var(--gutter);z-index:9999;
+  background:var(--cream);color:var(--ink);
+  padding:14px 22px;font-size:11px;letter-spacing:.2em;
+  text-transform:uppercase;font-weight:500;
+  transition:top .3s var(--ease);
+}
+.skip-link:focus{top:16px}
+</style><style>
+.container{width:100%;max-width:var(--maxw);margin-inline:auto;padding-inline:var(--gutter)}
+.section{padding-block:clamp(74px,9vw,140px)}
+.section--tight{padding-block:clamp(56px,6.5vw,100px)}
+.section--cream{background:var(--cream);color:var(--text-ink)}
+.section--ivory{background:var(--ivory);color:var(--text-ink)}
+.section--ink{background:var(--ink);color:var(--cream)}
+.section--charcoal{background:var(--charcoal);color:var(--cream)}
+.section--wine{background:var(--oxblood);color:var(--cream)}
+
+.h2{font-family:var(--serif);font-optical-sizing:auto;font-weight:400;font-size:clamp(34px,5vw,72px);line-height:1;letter-spacing:-.03em}
+.body-copy{font-size:16px;line-height:1.76;font-weight:300}
+.section--cream .body-copy,.section--ivory .body-copy{color:var(--text-body)}
+.section--ink .body-copy,.section--charcoal .body-copy{color:var(--cream-mute)}
+
+.sec-label{display:flex;align-items:center;gap:14px;font-size:10px;font-weight:500;letter-spacing:.3em;text-transform:uppercase;color:var(--oxblood-bright);white-space:nowrap}
+.sec-label .num{font-family:var(--serif);font-optical-sizing:auto;font-size:13px;letter-spacing:.06em;color:var(--oxblood-bright);font-weight:500}
+.sec-label .line{width:34px;height:1px;background:currentColor;opacity:.5;flex:none}
+.section--ink .sec-label,.section--charcoal .sec-label,.section--wine .sec-label{color:var(--gold-soft)}
+.section--ink .sec-label .num,.section--charcoal .sec-label .num,.section--wine .sec-label .num{color:var(--gold-soft)}
+
+.btn{position:relative;display:inline-flex;align-items:center;justify-content:space-between;gap:22px;padding:18px 28px;font-size:10.5px;font-weight:500;letter-spacing:.22em;text-transform:uppercase;border:1px solid transparent;overflow:hidden;transition:color .5s var(--ease),border-color .5s var(--ease);isolation:isolate;font-family:var(--sans);cursor:pointer}
+.btn::before{content:"";position:absolute;inset:0;background:var(--oxblood-bright);transform:translateY(101%);transition:transform .55s var(--ease);z-index:-1}
+.btn .arrow{display:inline-block;transition:transform .5s var(--ease);font-size:14px;line-height:1}
+.btn:hover .arrow{transform:translateX(6px)}
+.btn--wine{background:var(--oxblood);color:var(--cream);border-color:var(--oxblood)}
+.btn--wine::before{background:var(--oxblood-bright)}
+.btn--wine:hover{color:#fff;border-color:var(--oxblood-bright)}
+.btn--wine:hover::before{transform:translateY(0)}
+.btn--outline-light{color:var(--cream);border-color:var(--rule-dark-strong)}
+.btn--outline-light::before{background:var(--cream)}
+.btn--outline-light:hover{color:var(--ink);border-color:var(--cream)}
+.btn--outline-light:hover::before{transform:translateY(0)}
+
+/* HEADER */
+.site-header{position:fixed;top:0;left:0;right:0;z-index:100;background:transparent;transition:background .5s var(--ease),border-color .5s var(--ease);border-bottom:1px solid transparent}
+.site-header.is-scrolled{background:rgba(10,9,8,.9);-webkit-backdrop-filter:blur(20px) saturate(140%);backdrop-filter:blur(20px) saturate(140%);border-bottom-color:var(--rule-dark)}
+.header-inner{max-width:var(--maxw);margin-inline:auto;padding:22px var(--gutter);display:flex;align-items:center;gap:clamp(18px,2.6vw,40px);transition:padding .5s var(--ease)}
+.site-header.is-scrolled .header-inner{padding-block:13px}
+
+.brand{display:flex;align-items:center;gap:14px;flex:none}
+.brand-slot{position:relative;width:52px;height:52px;flex:none;display:grid;place-items:center;background:rgba(239,230,214,.02);border:1px dashed rgba(176,141,82,.55);overflow:hidden;transition:border-color .45s var(--ease),background .45s var(--ease)}
+.brand-slot:hover{border-color:var(--gold);background:rgba(176,141,82,.05)}
+.brand-slot img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:5px;z-index:2}
+.brand-slot .slot-label{font-family:var(--sans);font-size:8.5px;font-weight:500;letter-spacing:.24em;text-transform:uppercase;color:rgba(214,186,134,.85);text-align:center;line-height:1.1;z-index:1;transition:opacity .3s var(--ease)}
+.brand-slot.has-logo{border-color:transparent;background:transparent}
+.brand-slot.has-logo .slot-label{opacity:0}
+.brand-slot.has-logo img{padding:0}
+
+.brand-text{display:flex;flex-direction:column;line-height:1.05}
+.brand-name{font-size:11px;font-weight:500;letter-spacing:.24em;text-transform:uppercase;color:var(--cream)}
+.brand-sub{font-size:8px;font-weight:400;letter-spacing:.38em;text-transform:uppercase;color:var(--cream-mute);margin-top:5px}
+
+.desktop-nav{display:flex;align-items:center;gap:clamp(12px,1.45vw,24px);margin-left:auto}
+.desktop-nav a{position:relative;font-size:10.5px;font-weight:400;letter-spacing:.16em;text-transform:uppercase;color:var(--cream-mute);padding:6px 0;white-space:nowrap;transition:color .4s var(--ease)}
+.desktop-nav a::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:var(--gold);transform:scaleX(0);transform-origin:right;transition:transform .5s var(--ease)}
+.desktop-nav a:hover{color:var(--cream)}
+.desktop-nav a:hover::after{transform:scaleX(1);transform-origin:left}
+.desktop-nav a.is-active{color:var(--cream)}
+.desktop-nav a.is-active::after{transform:scaleX(1);background:var(--oxblood-soft)}
+
+.header-cta{flex:none;padding:14px 24px;font-size:10px;letter-spacing:.18em}
+
+.menu-toggle{display:none;width:46px;height:46px;align-items:center;justify-content:center;flex-direction:column;gap:7px;margin-left:auto;flex:none;border:1px solid var(--rule-dark-strong);transition:border-color .4s var(--ease)}
+.menu-toggle:hover{border-color:var(--gold)}
+.menu-toggle span:not(.sr-only){display:block;width:20px;height:1px;background:var(--cream);transition:transform .45s var(--ease)}
+.menu-toggle[aria-expanded="true"] span:nth-child(1){transform:translateY(4px) rotate(45deg)}
+.menu-toggle[aria-expanded="true"] span:nth-child(2){transform:translateY(-4px) rotate(-45deg)}
+
+.mobile-menu{position:fixed;inset:0;z-index:99;background:var(--ink-2);padding:120px var(--gutter) 48px;display:flex;flex-direction:column;justify-content:space-between;gap:48px;overflow-y:auto;transform:translateY(-102%);visibility:hidden;transition:transform .65s var(--ease),visibility .65s var(--ease)}
+.mobile-menu.is-open{transform:translateY(0);visibility:visible}
+.mobile-menu nav{display:flex;flex-direction:column}
+.mobile-menu nav a{display:flex;align-items:baseline;gap:18px;padding:14px 0;border-bottom:1px solid var(--rule-dark);font-family:var(--serif);font-optical-sizing:auto;font-size:clamp(24px,6vw,32px);font-weight:400;letter-spacing:-.02em;color:var(--cream);transition:color .4s var(--ease),padding-left .4s var(--ease)}
+.mobile-menu nav a:hover,.mobile-menu nav a:focus-visible{color:var(--oxblood-soft);padding-left:8px}
+.mobile-menu nav a .num{font-family:var(--sans);font-size:9px;letter-spacing:.24em;color:var(--gold);flex:none}
+.mm-foot{border-top:1px solid var(--rule-dark);padding-top:28px;display:flex;flex-direction:column;gap:20px;align-items:flex-start}
+.mm-foot .eyebrow{font-size:10px;font-weight:500;letter-spacing:.3em;text-transform:uppercase;color:var(--cream-mute);line-height:1.4}
+.mm-mail{font-family:var(--serif);font-optical-sizing:auto;font-size:20px;color:var(--cream);word-break:break-word;border-bottom:1px solid var(--rule-dark-strong);padding-bottom:4px}
+body.menu-open{overflow:hidden}
+
+/* DEEP HERO */
+.deep-hero{position:relative;padding-top:clamp(120px,15vh,170px);padding-bottom:clamp(48px,6vw,80px);background:radial-gradient(110% 80% at 92% 0%,rgba(90,15,26,.4) 0%,rgba(90,15,26,0) 55%),var(--ink);border-bottom:1px solid var(--rule-dark);overflow:hidden}
+.deep-hero::before{content:"";position:absolute;inset:0;background-image:linear-gradient(to right,rgba(239,230,214,.045) 1px,transparent 1px);background-size:25% 100%;pointer-events:none;mask-image:linear-gradient(to bottom,rgba(0,0,0,.7),transparent 80%);-webkit-mask-image:linear-gradient(to bottom,rgba(0,0,0,.7),transparent 80%)}
+.deep-hero-inner{position:relative;max-width:1000px}
+.deep-back{display:inline-flex;align-items:center;gap:10px;font-size:10.5px;font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:var(--cream-mute);padding-bottom:8px;border-bottom:1px solid var(--rule-dark-strong);margin-bottom:clamp(28px,3.4vw,40px);transition:color .4s var(--ease),border-color .4s var(--ease),gap .4s var(--ease)}
+.deep-back:hover{color:var(--cream);border-color:var(--cream);gap:16px}
+.deep-back .arrow{display:inline-block;transform:rotate(180deg)}
+.deep-hero .sec-label{color:var(--gold-soft);margin-bottom:clamp(22px,3vw,32px)}
+.deep-hero .sec-label .num{color:var(--gold-soft)}
+.deep-hero-title{font-family:var(--serif);font-optical-sizing:auto;font-weight:300;font-size:clamp(36px,5.4vw,78px);line-height:.98;letter-spacing:-.034em;color:var(--cream);margin-bottom:clamp(22px,3vw,34px);max-width:20ch}
+.deep-hero-title em{font-style:italic;color:var(--oxblood-soft)}
+.deep-hero-lede{font-size:clamp(16px,1.35vw,19px);line-height:1.75;color:var(--cream-mute);max-width:60ch;margin-bottom:clamp(28px,3.6vw,44px)}
+.deep-hero-meta{display:flex;flex-wrap:wrap;gap:clamp(24px,3.6vw,48px);padding-top:clamp(24px,3vw,36px);border-top:1px solid var(--rule-dark)}
+.deep-hero-meta div span{display:block;font-size:9px;font-weight:600;letter-spacing:.28em;text-transform:uppercase;color:var(--gold-soft);margin-bottom:6px}
+.deep-hero-meta div strong{display:block;font-family:var(--serif);font-style:italic;font-weight:400;font-size:16px;color:var(--cream);line-height:1.35}
+
+/* WORKING PLATE */
+.deep-plate{background:var(--paper);color:var(--text-ink);padding-block:clamp(56px,7vw,96px);border-bottom:1px solid var(--rule-light-strong)}
+.deep-plate-head{display:flex;align-items:flex-end;justify-content:space-between;gap:32px;flex-wrap:wrap;margin-bottom:clamp(36px,4.5vw,56px)}
+.deep-plate-head .h2{color:var(--text-ink);max-width:16ch}
+.deep-plate-head .h2 em{font-style:italic;color:var(--oxblood-bright)}
+.deep-plate-head p{font-size:14.5px;line-height:1.75;color:var(--text-body);max-width:44ch}
+
+.plate-frame{background:var(--charcoal-2);color:var(--cream);border:1px solid var(--rule-light-strong);padding:clamp(28px,4vw,56px);position:relative;overflow:hidden}
+.plate-tag{display:inline-block;font-size:8.5px;font-weight:600;letter-spacing:.3em;text-transform:uppercase;color:var(--gold-soft);border:1px solid var(--gold-soft);padding:6px 12px;margin-bottom:clamp(24px,3vw,36px)}
+.plate-title{font-family:var(--serif);font-optical-sizing:auto;font-weight:400;font-size:clamp(22px,2.6vw,32px);line-height:1.14;letter-spacing:-.02em;color:var(--cream);margin-bottom:8px;max-width:22ch}
+.plate-title em{font-style:italic;color:var(--gold-soft)}
+.plate-caption{font-size:13.5px;line-height:1.7;color:var(--cream-mute);margin-bottom:clamp(28px,3.4vw,44px);max-width:56ch}
+
+/* AUTHOR PAGE MOCKUP */
+.author-mock{background:#fff;color:var(--text-ink);border:1px solid #2A2622;padding:clamp(22px,3vw,36px);margin-bottom:clamp(24px,3vw,36px)}
+.author-mock-head{display:flex;align-items:flex-start;gap:18px;padding-bottom:20px;border-bottom:1px solid var(--rule-light);margin-bottom:22px}
+.author-mock-photo{width:78px;height:78px;border-radius:50%;background:var(--charcoal-2);display:grid;place-items:center;flex:none;overflow:hidden;border:2px solid var(--rule-light-strong)}
+.author-mock-photo svg{width:36px;height:36px;stroke:var(--cream-mute);stroke-width:1;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.author-mock-info{flex:1;min-width:0}
+.author-mock-name{display:block;font-family:var(--serif);font-optical-sizing:auto;font-size:clamp(19px,2.2vw,24px);color:var(--text-ink);letter-spacing:-.01em;line-height:1.15;margin-bottom:4px}
+.author-mock-role{display:block;font-size:9.5px;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:var(--oxblood-bright);margin-bottom:10px}
+.author-mock-bio{font-size:12.5px;line-height:1.7;color:var(--text-body);max-width:52ch;margin:0}
+.author-mock-shelf{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(8px,1.4vw,14px)}
+
+.author-mock-shelf-tile{display:flex;flex-direction:column;gap:6px;min-width:0}
+.author-mock-shelf-cover{aspect-ratio:2/3;background:var(--charcoal-2);border:1px solid var(--rule-light-strong);overflow:hidden}
+.author-mock-shelf-cover img{width:100%;height:100%;object-fit:cover}
+.author-mock-shelf-title{font-size:10px;font-weight:500;color:var(--text-ink);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin:0;font-family:var(--sans)}
+.author-mock-shelf-meta{font-size:8.5px;color:var(--text-mute);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin:0}
+
+/* CHECKS */
+.check-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 clamp(24px,3.4vw,44px);border-top:1px solid var(--rule-dark);margin-top:clamp(24px,3vw,36px)}
+.check-item{padding:16px 0;border-bottom:1px solid var(--rule-dark);display:flex;align-items:flex-start;gap:14px}
+.check-icon{flex:none;width:18px;height:18px;border:1px solid var(--rule-dark-strong);display:grid;place-items:center;margin-top:2px}
+.check-icon svg{width:11px;height:11px;stroke:var(--gold-soft);stroke-width:2.4;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.check-item.flagged .check-icon{border-color:var(--oxblood-bright);background:rgba(190,75,87,.15)}
+.check-item.flagged .check-icon svg{stroke:var(--oxblood-soft)}
+.check-body{flex:1;min-width:0}
+.check-body h4{font-family:var(--sans);font-size:12.5px;font-weight:600;color:var(--cream);margin-bottom:3px;letter-spacing:.02em}
+.check-body p{font-size:11.5px;line-height:1.55;color:var(--cream-mute);margin:0}
+
+.plate-note{margin-top:clamp(22px,3vw,32px);padding-top:18px;border-top:1px solid var(--rule-dark);font-size:12.5px;line-height:1.7;color:var(--cream-mute);font-style:italic;max-width:66ch}
+
+/* DEEP BODY */
+.deep-body{background:var(--ivory);color:var(--text-ink);padding-block:clamp(64px,8vw,110px)}
+.deep-body-grid{display:grid;grid-template-columns:minmax(0,260px) minmax(0,1fr);gap:clamp(32px,6vw,96px);align-items:start}
+.deep-body-side{position:sticky;top:120px}
+.deep-body-main{max-width:800px}
+.deep-body-main h2{color:var(--text-ink);margin-bottom:clamp(20px,3vw,28px);max-width:20ch;font-family:var(--serif);font-optical-sizing:auto;font-weight:400;font-size:clamp(34px,5vw,72px);line-height:1;letter-spacing:-.03em}
+.deep-body-main h2 em{font-style:italic;color:var(--oxblood-bright)}
+.deep-body-main h3{font-family:var(--serif);font-optical-sizing:auto;font-weight:400;font-size:clamp(22px,2.4vw,28px);line-height:1.22;letter-spacing:-.02em;color:var(--text-ink);margin-top:clamp(32px,4vw,48px);margin-bottom:16px}
+.deep-body-main p{font-size:16px;line-height:1.78;color:var(--text-body);margin-bottom:18px;max-width:64ch}
+.deep-body-main p:last-child{margin-bottom:0}
+.deep-body-main ul{margin:18px 0 22px;padding:0;list-style:none}
+.deep-body-main ul li{padding:14px 0;border-bottom:1px solid var(--rule-light);display:flex;gap:16px;align-items:flex-start;font-size:15px;line-height:1.7;color:var(--text-body)}
+.deep-body-main ul li:first-child{border-top:1px solid var(--rule-light)}
+.deep-body-main ul li::before{content:"";width:6px;height:6px;background:var(--oxblood-bright);transform:rotate(45deg);flex:none;margin-top:11px}
+
+.pull{margin:clamp(36px,4.4vw,56px) 0;padding:clamp(24px,3vw,36px) 0;border-top:1px solid var(--rule-light);border-bottom:1px solid var(--rule-light);font-family:var(--serif);font-optical-sizing:auto;font-weight:300;font-size:clamp(22px,2.7vw,34px);line-height:1.24;letter-spacing:-.024em;color:var(--text-ink);max-width:26ch}
+.pull em{font-style:italic;color:var(--oxblood-bright)}
+
+/* PAIN SECTION */
+.pain-section{position:relative;overflow:hidden;background:radial-gradient(100% 120% at 50% 0%,rgba(142,32,48,.5) 0%,rgba(90,15,26,0) 62%),var(--oxblood);color:var(--cream);padding-block:clamp(64px,8vw,110px)}
+.pain-section::before{content:"";position:absolute;inset:0;background-image:linear-gradient(to right,rgba(239,230,214,.07) 1px,transparent 1px);background-size:25% 100%;pointer-events:none}
+.pain-inner{position:relative;max-width:960px}
+.pain-section .sec-label{color:var(--gold-soft);margin-bottom:clamp(22px,3vw,32px)}
+.pain-section .sec-label .num{color:var(--gold-soft)}
+.pain-title{font-family:var(--serif);font-optical-sizing:auto;font-weight:300;font-size:clamp(32px,4.6vw,60px);line-height:1.02;letter-spacing:-.034em;color:var(--cream);margin-bottom:clamp(28px,3.6vw,44px);max-width:22ch}
+.pain-title em{font-style:italic;color:var(--gold-soft)}
+.pain-intro{font-size:16px;line-height:1.8;color:rgba(239,230,214,.82);margin-bottom:clamp(28px,4vw,44px);max-width:58ch}
+.pain-list{display:flex;flex-direction:column;border-top:1px solid rgba(239,230,214,.22)}
+.pain-item{padding:clamp(22px,3vw,32px) 0;border-bottom:1px solid rgba(239,230,214,.16);display:grid;grid-template-columns:auto 1fr;gap:clamp(20px,3vw,40px);align-items:start}
+.pain-num{font-family:var(--serif);font-optical-sizing:auto;font-style:italic;font-size:clamp(28px,3.4vw,40px);line-height:1;letter-spacing:-.02em;color:var(--gold-soft);padding-top:2px;min-width:40px}
+.pain-body h3{font-family:var(--serif);font-optical-sizing:auto;font-weight:400;font-size:clamp(20px,2.2vw,26px);line-height:1.22;letter-spacing:-.018em;color:var(--cream);margin-bottom:8px}
+.pain-body p{font-size:15px;line-height:1.76;color:rgba(239,230,214,.82);max-width:56ch;margin:0}
+.pain-closing{margin-top:clamp(30px,4vw,46px);padding-top:clamp(24px,3vw,36px);border-top:1px solid rgba(239,230,214,.22);font-family:var(--serif);font-style:italic;font-size:clamp(18px,2vw,24px);line-height:1.4;color:var(--gold-soft);max-width:28ch}
+
+/* CTA */
+.cta{position:relative;overflow:hidden;background:radial-gradient(90% 110% at 50% 110%,rgba(90,15,26,.65) 0%,rgba(90,15,26,0) 60%),var(--ink);text-align:center;border-top:1px solid var(--rule-dark)}
+.cta-inner{position:relative;z-index:2}
+.cta .sec-label{justify-content:center;margin-bottom:clamp(26px,3.4vw,38px)}
+.cta .h2{color:var(--cream);font-size:clamp(36px,5.6vw,84px);max-width:17ch;margin-inline:auto;line-height:1.02;text-wrap:balance}
+.cta .h2 em{font-style:italic;color:var(--oxblood-soft)}
+.cta p{max-width:50ch;margin:28px auto 0;color:var(--cream-mute);font-weight:300;font-size:16px;line-height:1.78}
+.cta-actions{margin-top:clamp(36px,4.4vw,54px);display:flex;flex-wrap:wrap;gap:14px;justify-content:center}
+.cta-mail{display:inline-block;margin-top:34px;font-family:var(--serif);font-optical-sizing:auto;font-style:italic;font-size:clamp(19px,2.1vw,25px);color:var(--cream);padding-bottom:5px;border-bottom:1px solid var(--rule-dark-strong);transition:color .4s var(--ease),border-color .4s var(--ease)}
+.cta-mail:hover{color:var(--gold-soft);border-color:var(--gold)}
+
+/* FOOTER */
+.site-footer{background:var(--ink-2);border-top:1px solid var(--rule-dark);padding-top:clamp(58px,7vw,96px)}
+.footer-top{display:grid;grid-template-columns:1.6fr 1fr 1fr 1.2fr;gap:clamp(28px,4vw,60px);padding-bottom:clamp(42px,5vw,68px)}
+.footer-brand .brand{margin-bottom:22px}
+.footer-brand .tagline{font-family:var(--serif);font-optical-sizing:auto;font-style:italic;font-size:19px;line-height:1.5;letter-spacing:-.015em;color:var(--cream);margin-bottom:16px;max-width:24ch}
+.footer-brand p{font-size:13.5px;line-height:1.75;font-weight:300;color:var(--cream-mute);max-width:38ch}
+.footer-col h5{font-size:9.5px;font-weight:600;letter-spacing:.28em;text-transform:uppercase;color:var(--cream);margin-bottom:22px}
+.footer-col ul{display:flex;flex-direction:column;gap:12px}
+.footer-col a,.footer-col .pending{font-size:13.5px;font-weight:300;color:var(--cream-mute);transition:color .4s var(--ease)}
+.footer-col a:hover{color:var(--cream)}
+.footer-col .pending{opacity:.7;cursor:default}
+.footer-mail{display:inline-block;font-family:var(--serif);font-optical-sizing:auto;font-style:italic;font-size:18px;color:var(--cream);border-bottom:1px solid var(--rule-dark-strong);padding-bottom:4px;margin-bottom:20px;word-break:break-word;transition:color .4s var(--ease),border-color .4s var(--ease)}
+.footer-mail:hover{color:var(--gold-soft);border-color:var(--gold)}
+.footer-note{font-size:12px;line-height:1.7;font-weight:300;color:var(--cream-mute);opacity:.85}
+.footer-bottom{border-top:1px solid var(--rule-dark);padding-block:28px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px 30px;font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--cream-mute)}
+.footer-bottom nav{display:flex;flex-wrap:wrap;gap:8px 26px}
+.footer-bottom a{transition:color .4s var(--ease)}
+.footer-bottom a:hover{color:var(--cream)}
+
+/* REVEAL */
+.reveal{transition:opacity .7s var(--ease),transform .7s var(--ease)}
+html.js .reveal{opacity:0;transform:translateY(22px)}
+html.js .reveal.is-visible{opacity:1;transform:none}
+html.js .reveal[data-delay="1"]{transition-delay:.07s}
+html.js .reveal[data-delay="2"]{transition-delay:.14s}
+html.js .reveal[data-delay="3"]{transition-delay:.21s}
+
+/* RESPONSIVE */
+@media (max-width:1240px){.header-cta{display:none}}
+@media (max-width:1080px){
+  .desktop-nav{display:none}.menu-toggle{display:flex}
+  .deep-body-grid{grid-template-columns:1fr;gap:28px}
+  .deep-body-side{position:static}
+  .footer-top{grid-template-columns:1fr 1fr}
+}
+@media (max-width:880px){
+  .author-mock-shelf{grid-template-columns:repeat(4,1fr)}
+  .check-grid{grid-template-columns:1fr}
+}
+@media (max-width:620px){
+  .deep-hero{padding-top:120px}
+  .author-mock-head{flex-direction:column;align-items:center;text-align:center}
+  .author-mock-bio{text-align:center}
+  .author-mock-shelf{grid-template-columns:repeat(2,1fr)}
+  .footer-top{grid-template-columns:1fr;gap:36px}
+  .footer-bottom{flex-direction:column;align-items:flex-start}
+  .brand-sub{letter-spacing:.3em}
+  .brand-slot{width:46px;height:46px}
+}
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.001ms !important;animation-iteration-count:1 !important;transition-duration:.001ms !important}
+  html.js .reveal{opacity:1;transform:none}
+}
+</style></head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============================================================
+     HEADER
+     ============================================================ -->
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+
+    <a class="brand" href="../index.html" aria-label="Edigha Francisca Literary Solutions: Home">
+   <span class="brand-slot" id="headerLogoSlot">
+  <img src="edigha.png" alt="Edigha Francisca Literary Solutions" width="52" height="52"
+       onload="this.closest('.brand-slot').classList.add('has-logo')"
+       onerror="this.style.display='none'">
+  <span class="slot-label">Logo</span>
+</span>
+      <span class="brand-text">
+        <span class="brand-name">Edigha Francisca</span>
+        <span class="brand-sub">Literary Solutions</span>
+      </span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="../index.html">Home</a>
+      <a href="../about.html">About</a>
+      <a href="../services.html" class="is-active" aria-current="page">Services</a>
+      <a href="../approach.html">Approach</a>
+      <a href="../research.html">Research</a>
+      <a href="../insights.html">Insights</a>
+      <a href="../resources.html">Resources</a>
+      <a href="../faq.html">FAQ</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
+
+    <a class="btn btn--wine header-cta" href="../contact.html">
+      Discuss Your Book <span class="arrow" aria-hidden="true">&rarr;</span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open navigation menu">
+      <span aria-hidden="true"></span><span aria-hidden="true"></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============================================================
+     MOBILE MENU
+     ============================================================ -->
+<div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+  <nav aria-label="Mobile navigation">
+    <a href="../index.html"><span class="num">01</span> Home</a>
+    <a href="../about.html"><span class="num">02</span> About</a>
+    <a href="../services.html"><span class="num">03</span> Services</a>
+    <a href="../approach.html"><span class="num">04</span> Approach</a>
+    <a href="../research.html"><span class="num">05</span> Research</a>
+    <a href="../insights.html"><span class="num">06</span> Insights</a>
+    <a href="../resources.html"><span class="num">07</span> Resources</a>
+    <a href="../faq.html"><span class="num">08</span> FAQ</a>
+    <a href="../contact.html"><span class="num">09</span> Contact</a>
+  </nav>
+  <div class="mm-foot">
+    <p class="eyebrow">Begin a conversation</p>
+    <a class="mm-mail" href="mailto:edighafrancisca@gmail.com">edighafrancisca@gmail.com</a>
+    <a class="btn btn--wine" href="../contact.html">Discuss Your Book <span class="arrow" aria-hidden="true">&rarr;</span></a>
+  </div>
+</div>
+
+<main id="main">
+
+<!-- ============================================================
+     DEEP HERO
+     ============================================================ -->
+<section class="deep-hero" aria-labelledby="deep-hero-title">
+  <div class="container">
+    <div class="deep-hero-inner">
+
+      <a href="../services.html" class="deep-back">
+        <span class="arrow" aria-hidden="true">&rarr;</span>
+        <span>Back to Services</span>
+      </a>
+
+      <p class="sec-label"><span class="num">02</span><span class="line" aria-hidden="true"></span><span>Author Platform</span></p>
+
+      <h1 class="deep-hero-title" id="deep-hero-title">
+        The page most readers reach <em>after they finish.</em>
+      </h1>
+
+      <p class="deep-hero-lede">
+        A reader who has finished one book often looks for the author behind it. What they find
+        on that page decides whether they read a second. The author page is a body of work in
+        miniature, and it is usually the least studied page on a book's listing. This page shows
+        what a reader meets there, and what it costs an author when that meeting is left to
+        chance.
+      </p>
+
+      <div class="deep-hero-meta">
+        <div>
+          <span>Service</span>
+          <strong>Author Platform</strong>
+        </div>
+        <div>
+          <span>Reading time</span>
+          <strong>6 minutes</strong>
+        </div>
+        <div>
+          <span>Focus</span>
+          <strong>Profile, catalogue, follow</strong>
+        </div>
+        <div>
+          <span>For</span>
+          <strong>Authors with a backlist</strong>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section><!-- ============================================================
+     WORKING PLATE
+     ============================================================ -->
+<section class="deep-plate" aria-labelledby="plate-heading">
+  <div class="container">
+
+    <div class="deep-plate-head">
+      <h2 class="h2 reveal" id="plate-heading">What the reader <em>actually meets</em></h2>
+      <p class="reveal" data-delay="1">
+        An author page read in four zones, and eight checks run against it. Four of them are
+        flagged. None is catastrophic on its own. Together they explain why a reader who finishes
+        one book does not go on to the next.
+      </p>
+    </div>
+
+    <div class="plate-frame reveal" data-delay="2">
+      <span class="plate-tag">Author Platform Plate</span>
+      <p class="plate-title">A real page. <em>A real evaluation.</em></p>
+      <p class="plate-caption">
+        Below is an author page as a reader meets it, followed by a checklist of the eight checks
+        that matter on that page. Four are met, four are not. The four that are not are the ones
+        the author never sees, because they require reading the page as a stranger would.
+      </p>
+
+      <!-- Author page mockup -->
+      <div class="author-mock">
+        <div class="author-mock-head">
+          <div class="author-mock-photo" aria-hidden="true">
+            <svg viewBox="0 0 24 24" focusable="false">
+              <circle cx="12" cy="8" r="4"/>
+              <path d="M4 21v-1a8 8 0 0 1 16 0v1"/>
+            </svg>
+          </div>
+          <div class="author-mock-info">
+            <span class="author-mock-name">The Author</span>
+            <span class="author-mock-role">Novelist</span>
+            <p class="author-mock-bio">
+              The first line of the biography decides whether the second is read. The catalogue
+              below decides which book is picked up next.
+            </p>
+          </div>
+        </div>
+
+        <div class="author-mock-shelf">
+
+          <div class="author-mock-shelf-tile">
+            <div class="author-mock-shelf-cover">
+              <img src="https://covers.openlibrary.org/b/isbn/9781501110368-L.jpg"
+                   alt="It Ends with Us by Colleen Hoover"
+                   width="300" height="450" loading="lazy"
+                   onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 300%22><rect width=%22200%22 height=%22300%22 fill=%22%231E1B19%22/><text x=%22100%22 y=%22150%22 fill=%22%23EFE6D6%22 font-family=%22Georgia,serif%22 font-size=%2212%22 text-anchor=%22middle%22>It Ends with Us</text></svg>'">
+            </div>
+            <p class="author-mock-shelf-title">It Ends with Us</p>
+            <p class="author-mock-shelf-meta">2016 &middot; Book 1</p>
+          </div>
+
+          <div class="author-mock-shelf-tile">
+            <div class="author-mock-shelf-cover">
+              <img src="https://covers.openlibrary.org/b/isbn/9781538724736-L.jpg"
+                   alt="Verity by Colleen Hoover"
+                   width="300" height="450" loading="lazy"
+                   onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 300%22><rect width=%22200%22 height=%22300%22 fill=%22%231E1B19%22/><text x=%22100%22 y=%22150%22 fill=%22%23EFE6D6%22 font-family=%22Georgia,serif%22 font-size=%2212%22 text-anchor=%22middle%22>Verity</text></svg>'">
+            </div>
+            <p class="author-mock-shelf-title">Verity</p>
+            <p class="author-mock-shelf-meta">2018 &middot; Standalone</p>
+          </div>
+
+          <div class="author-mock-shelf-tile">
+            <div class="author-mock-shelf-cover">
+              <img src="https://covers.openlibrary.org/b/isbn/9781476753188-L.jpg"
+                   alt="Ugly Love by Colleen Hoover"
+                   width="300" height="450" loading="lazy"
+                   onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 300%22><rect width=%22200%22 height=%22300%22 fill=%22%231E1B19%22/><text x=%22100%22 y=%22150%22 fill=%22%23EFE6D6%22 font-family=%22Georgia,serif%22 font-size=%2212%22 text-anchor=%22middle%22>Ugly Love</text></svg>'">
+            </div>
+            <p class="author-mock-shelf-title">Ugly Love</p>
+            <p class="author-mock-shelf-meta">2014 &middot; Standalone</p>
+          </div>
+
+          <div class="author-mock-shelf-tile">
+            <div class="author-mock-shelf-cover">
+              <img src="https://covers.openlibrary.org/b/isbn/9781476753164-L.jpg"
+                   alt="Maybe Someday by Colleen Hoover"
+                   width="300" height="450" loading="lazy"
+                   onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 300%22><rect width=%22200%22 height=%22300%22 fill=%22%231E1B19%22/><text x=%22100%22 y=%22150%22 fill=%22%23EFE6D6%22 font-family=%22Georgia,serif%22 font-size=%2212%22 text-anchor=%22middle%22>Maybe Someday</text></svg>'">
+            </div>
+            <p class="author-mock-shelf-title">Maybe Someday</p>
+            <p class="author-mock-shelf-meta">2014 &middot; Book 1</p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Eight checks -->
+      <div class="check-grid">
+
+        <div class="check-item">
+          <span class="check-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><polyline points="4 12 10 18 20 6"/></svg>
+          </span>
+          <div class="check-body">
+            <h4>Photograph present</h4>
+            <p>A professional photograph is shown. Readers who see a face are measurably more likely to remember the author name.</p>
+          </div>
+        </div>
+
+        <div class="check-item flagged">
+          <span class="check-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
+          </span>
+          <div class="check-body">
+            <h4>Biography ends before the question</h4>
+            <p>The biography stops before it has answered the reader's real question, which is what kind of book the author writes.</p>
+          </div>
+        </div>
+
+        <div class="check-item">
+          <span class="check-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><polyline points="4 12 10 18 20 6"/></svg>
+          </span>
+          <div class="check-body">
+            <h4>Catalogue present</h4>
+            <p>Every published title appears on the page. No missing books, no titles linked to a previous pen name.</p>
+          </div>
+        </div>
+
+        <div class="check-item flagged">
+          <span class="check-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
+          </span>
+          <div class="check-body">
+            <h4>Catalogue order is chronological</h4>
+            <p>Titles are arranged by publication date, not by series or by relevance. A reader who has just finished book one meets book three next.</p>
+          </div>
+        </div>
+
+        <div class="check-item">
+          <span class="check-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><polyline points="4 12 10 18 20 6"/></svg>
+          </span>
+          <div class="check-body">
+            <h4>Series grouping present</h4>
+            <p>Books in a series are grouped as a series. A reader can see that this is book one of three, and can find book two.</p>
+          </div>
+        </div>
+
+        <div class="check-item flagged">
+          <span class="check-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
+          </span>
+          <div class="check-body">
+            <h4>External links absent</h4>
+            <p>No link to the author's own site, no newsletter, no social accounts. The page is a dead end after the catalogue.</p>
+          </div>
+        </div>
+
+        <div class="check-item">
+          <span class="check-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><polyline points="4 12 10 18 20 6"/></svg>
+          </span>
+          <div class="check-body">
+            <h4>Following enabled</h4>
+            <p>The follow button is present and a new follower becomes a notification on the next release. This is the only compounding asset on the page.</p>
+          </div>
+        </div>
+
+        <div class="check-item flagged">
+          <span class="check-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
+          </span>
+          <div class="check-body">
+            <h4>Last updated over a year ago</h4>
+            <p>The biography and photograph have not been refreshed. A page that has not moved in a year reads as inactive, even when the author is not.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <p class="plate-note">
+        Four checks met, four flagged. None of the flags is catastrophic on its own. Together
+        they explain a consistent pattern: a reader who finishes one book arrives at a page that
+        does not guide them to the next. The fixes are not complex, but they require someone to
+        read the page as a stranger would, and most authors never do.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================================================
+     DEEP BODY
+     ============================================================ -->
+<section class="deep-body" aria-labelledby="body-title">
+  <div class="container">
+    <div class="deep-body-grid">
+
+      <div class="deep-body-side">
+        <p class="sec-label"><span class="line" aria-hidden="true"></span><span>The work</span></p>
+      </div>
+
+      <div class="deep-body-main">
+
+        <h2 class="reveal" id="body-title">What this service <em>actually does.</em></h2>
+
+        <p class="reveal" data-delay="1">
+          An author page is not a formality. It is the one page on Amazon that a reader reaches
+          voluntarily, after they have already finished one book and are deciding whether to read
+          another. It is also the only page on the platform that is about the author rather than
+          any single book, which makes it the most valuable page an author owns, and the most
+          often neglected. Author Platform Optimization is the work of reading that page as a
+          stranger reads it, and fixing what the stranger finds.
+        </p>
+
+        <h3 class="reveal">The four zones</h3>
+        <p class="reveal" data-delay="1">
+          Every author page is read in four zones, in a single order, in under ten seconds. The
+          photograph decides whether a face is trusted. The first line of the biography decides
+          whether the second is read. The catalogue order decides which book is picked up next.
+          The follow button is the outcome of the other three, and it is the only asset on the
+          page that compounds over time. Every recommendation in this service is built around
+          those four zones, because that is how a reader actually moves through the page.
+        </p>
+
+        <h3 class="reveal">The eight checks</h3>
+        <p class="reveal" data-delay="1">
+          Behind the four zones sit eight specific checks, run in a consistent order. Is a
+          photograph present. Does the biography answer the reader's real question. Is the
+          catalogue complete. Is the catalogue ordered for the reader rather than for the author.
+          Are series grouped as series. Are external links present. Is following enabled. Is the
+          page current. The plate above shows what this looks like on a real page. Four checks are
+          met, four are flagged, and the flags together explain why a reader who has just finished
+          one book does not open the next.
+        </p>
+
+        <blockquote class="pull reveal">
+          The author page is a body of work in miniature. Most authors have never read their own
+          page as a stranger would.
+        </blockquote>
+
+        <h3 class="reveal">What the work produces</h3>
+        <p class="reveal" data-delay="1">
+          The output of this service is not a redesign of the page. It is a written review, with
+          specific notes on what to change, why to change it, and what the reader will see
+          differently once the change is made. The biography, the photograph, the catalogue order,
+          the series grouping, the external links, the follow state, and the currency of the page
+          are all addressed. Nothing is left vague, because vague is what created the problem in
+          the first place.
+        </p>
+
+        <ul class="reveal" data-delay="2">
+          <li>A written review of the page, read in the four zones, with notes against each</li>
+          <li>An eight-point check with every finding classified as met or flagged</li>
+          <li>Specific biography and photograph recommendations, with reasoning</li>
+          <li>Catalogue order, series grouping, and external link recommendations</li>
+          <li>A brief note on the follow button, and what it earns the author over time</li>
+        </ul>
+
+      </div>
+
+    </div>
+  </div>
+</section><!-- ============================================================
+     PAIN SECTION
+     ============================================================ -->
+<section class="pain-section" aria-labelledby="pain-title">
+  <div class="container pain-inner">
+
+    <p class="sec-label"><span class="num">02</span><span class="line" aria-hidden="true"></span><span>The cost of leaving this undone</span></p>
+
+    <h2 class="pain-title" id="pain-title">
+      What happens when <em>the page is left as it was opened.</em>
+    </h2>
+
+    <p class="pain-intro">
+      Every author page exists. Most author pages have not been touched since the day they were
+      created. The author published a book, the page appeared, and no one returned to look at it.
+      The cost of that neglect is not visible in a dashboard. It appears in the reader who
+      finishes one book and does not open the next, and the author never learns why.
+    </p>
+
+    <div class="pain-list">
+
+      <div class="pain-item">
+        <span class="pain-num" aria-hidden="true">01</span>
+        <div class="pain-body">
+          <h3>The reader who finished one book does not find the second.</h3>
+          <p>
+            The catalogue is arranged in publishing order, not reading order. A reader who has
+            just finished book one of a series scrolls the page and meets book three next. They
+            cannot tell which book continues the story, so they choose nothing. The second book
+            in the series is passed over not because the reader did not want it, but because the
+            page did not show it to them at the moment they were looking.
+          </p>
+        </div>
+      </div>
+
+      <div class="pain-item">
+        <span class="pain-num" aria-hidden="true">02</span>
+        <div class="pain-body">
+          <h3>The biography answers a question the reader did not ask.</h3>
+          <p>
+            Most author biographies begin with where the author was born, where they studied, and
+            where they now live. A reader who has just finished one book does not want to know
+            where the author lives. They want to know what kind of book the author writes, and
+            whether the next one will be the same kind. A biography that answers the question the
+            reader asked, in the first sentence, is read to the second sentence. One that does
+            not is closed, and the reader moves on.
+          </p>
+        </div>
+      </div>
+
+      <div class="pain-item">
+        <span class="pain-num" aria-hidden="true">03</span>
+        <div class="pain-body">
+          <h3>The follow button is present, but nothing gives the reader a reason to use it.</h3>
+          <p>
+            The follow button is the only asset on an author page that compounds over time. A
+            follower becomes a notification on the next release, which is the most valuable
+            kind of traffic an author can receive. But most author pages give the reader no
+            reason to press follow: the biography does not signal that there will be a next
+            book, the catalogue does not group a series, and the page does not say what the
+            author is currently writing. The button is there. Nothing earns the click.
+          </p>
+        </div>
+      </div>
+
+      <div class="pain-item">
+        <span class="pain-num" aria-hidden="true">04</span>
+        <div class="pain-body">
+          <h3>The page is a dead end after the catalogue.</h3>
+          <p>
+            A reader who has finished browsing the catalogue of an author page has nowhere to go.
+            There is no link to the author's own site. No newsletter. No social account. No way
+            to stay in touch between releases. The reader is left at the end of a page with
+            nothing left to click, and the relationship, which was about to begin, ends there.
+            The author has paid for the traffic that brought the reader to this page. They have
+            not built a way to keep it.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <p class="pain-closing">
+      None of this is visible from the author's own dashboard. All of it is visible from the
+      reader's.
+    </p>
+
+  </div>
+</section>
+
+<!-- ============================================================
+     CTA
+     ============================================================ -->
+<section class="section cta" aria-labelledby="cta-title">
+  <div class="container cta-inner">
+    <p class="sec-label"><span class="line" aria-hidden="true"></span><span>Begin</span></p>
+    <h2 class="h2" id="cta-title">
+      The author page can be read as a stranger reads it. <em>It is not a mystery.</em>
+    </h2>
+    <p>
+      If you would like this review applied to your own author page, share your author name and
+      your Amazon author link. You will receive a considered response outlining what the eight
+      checks would look at first, and what they would likely find.
+    </p>
+    <div class="cta-actions">
+      <a class="btn btn--wine" href="../contact.html">Discuss Your Book <span class="arrow" aria-hidden="true">&rarr;</span></a>
+      <a class="btn btn--outline-light" href="../services.html">Other Services <span class="arrow" aria-hidden="true">&rarr;</span></a>
+    </div>
+    <a class="cta-mail" href="mailto:edighafrancisca@gmail.com">edighafrancisca@gmail.com</a>
+  </div>
+</section>
+
+</main>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer class="site-footer">
+  <div class="container">
+
+    <div class="footer-top">
+
+      <div class="footer-brand">
+        <a class="brand" href="../index.html" aria-label="Edigha Francisca Literary Solutions: Home">
+          <span class="brand-slot">
+            <img src="edigha.png" alt="" width="52" height="52"
+                 onload="this.closest('.brand-slot').classList.add('has-logo')" onerror="this.remove()">
+            <span class="slot-label">Logo</span>
+          </span>
+          <span class="brand-text">
+            <span class="brand-name">Edigha Francisca</span>
+            <span class="brand-sub">Literary Solutions</span>
+          </span>
+        </a>
+        <p class="tagline">Where Literary Vision Meets Strategic Discovery.</p>
+        <p>
+          An independent literary consultancy working with authors worldwide on book marketing,
+          Amazon discoverability, and author growth.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h5>Navigate</h5>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../about.html">About</a></li>
+          <li><a href="../services.html">Services</a></li>
+          <li><a href="../approach.html">Approach</a></li>
+          <li><a href="../research.html">Research</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>More</h5>
+        <ul>
+          <li><a href="../insights.html">Insights</a></li>
+          <li><a href="../resources.html">Resources</a></li>
+          <li><a href="../faq.html">FAQ</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+          <li><a href="../privacy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <a class="footer-mail" href="mailto:edighafrancisca@gmail.com">edighafrancisca@gmail.com</a>
+        <ul>
+          <li><span class="pending">Facebook</span></li>
+          <li><span class="pending">X / Twitter</span></li>
+        </ul>
+        <p class="footer-note" style="margin-top:20px">
+          Social profiles will be linked once the official accounts are confirmed.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; <span id="year">2025</span> Edigha Francisca Literary Solutions</p>
+      <nav aria-label="Legal">
+        <a href="../privacy.html">Privacy Policy</a>
+        <a href="../contact.html">Discuss Your Book</a>
+      </nav>
+    </div>
+
+  </div>
+</footer>
+
+<script>
+(function () {
+  'use strict';
+
+  var yearEl = document.getElementById('year');
+  if (yearEl) { yearEl.textContent = new Date().getFullYear(); }
+
+  var header = document.getElementById('siteHeader');
+  var lastScrolled = null;
+  function onScroll() {
+    var s = window.scrollY > 48;
+    if (s !== lastScrolled && header) {
+      header.classList.toggle('is-scrolled', s);
+      lastScrolled = s;
+    }
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  var toggle = document.getElementById('menuToggle');
+  var menu = document.getElementById('mobileMenu');
+  function setMenu(open) {
+    if (!toggle || !menu) return;
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    toggle.setAttribute('aria-label', open ? 'Close navigation menu' : 'Open navigation menu');
+    menu.setAttribute('aria-hidden', open ? 'false' : 'true');
+    menu.classList.toggle('is-open', open);
+    document.body.classList.toggle('menu-open', open);
+    if (open) {
+      var f = menu.querySelector('a');
+      if (f) window.setTimeout(function () { f.focus(); }, 420);
+    }
+  }
+  if (toggle && menu) {
+    toggle.addEventListener('click', function () {
+      setMenu(toggle.getAttribute('aria-expanded') !== 'true');
+    });
+    menu.querySelectorAll('a').forEach(function (a) {
+      a.addEventListener('click', function () { setMenu(false); });
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && menu.classList.contains('is-open')) {
+        setMenu(false); toggle.focus();
+      }
+    });
+    window.addEventListener('resize', function () {
+      if (window.innerWidth > 1080 && menu.classList.contains('is-open')) setMenu(false);
+    });
+  }
+
+  var revealEls = document.querySelectorAll('.reveal');
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (!('IntersectionObserver' in window) || reduce) {
+    revealEls.forEach(function (el) { el.classList.add('is-visible'); });
+  } else {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) {
+          en.target.classList.add('is-visible');
+          io.unobserve(en.target);
+        }
+      });
+    }, { threshold: 0.08, rootMargin: '0px 0px -60px 0px' });
+    revealEls.forEach(function (el) { io.observe(el); });
+  }
+  window.setTimeout(function () {
+    revealEls.forEach(function (el) {
+      if (!el.classList.contains('is-visible')) el.classList.add('is-visible');
+    });
+  }, 3000);
+
+})();
+</script>
+</body>
+</html>
