@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Insights | Edigha Francisca Literary Solutions</title>
+<meta name="description" content="Editorial insights on book discovery, Amazon keywords, categories, positioning and presentation. Essays for authors who want to understand how books are actually found.">
+<meta name="author" content="Edigha Francisca Literary Solutions">
+<link rel="canonical" href="https://example.com/insights.html">
+<link rel="icon" type="image/png" href="fransisca.png">
+<link rel="apple-touch-icon" href="fransisca.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Edigha Francisca Literary Solutions">
+<meta property="og:title" content="Insights | Edigha Francisca Literary Solutions">
+<meta property="og:description" content="Editorial insights on book discovery, Amazon keywords, categories, positioning and presentation.">
+<meta property="og:url" content="https://example.com/insights.html">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Inter+Tight:wght@300;400;500;600&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add('js');</script>
+<style>
+:root{
+  --ink:#0A0908;
+  --ink-2:#111010;
+  --charcoal:#171514;
+  --charcoal-2:#1E1B19;
+  --oxblood:#5A0F1A;
+  --oxblood-deep:#38070E;
+  --oxblood-bright:#8E2030;
+  --oxblood-soft:#BE4B57;
+  --gold:#B08D52;
+  --gold-soft:#D6BA86;
+  --cream:#EFE6D6;
+  --ivory:#F7F1E6;
+  --paper:#FBF7EF;
+  --text-ink:#141110;
+  --text-body:#4A423A;
+  --text-mute:#7C7268;
+  --cream-mute:#A79C8B;
+  --rule-dark:rgba(239,230,214,.14);
+  --rule-dark-strong:rgba(239,230,214,.28);
+  --rule-light:rgba(20,17,16,.14);
+  --rule-light-strong:rgba(20,17,16,.24);
+  --serif:'Fraunces',Georgia,'Times New Roman',serif;
+  --sans:'Inter Tight',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+  --maxw:1340px;
+  --gutter:clamp(20px,4.6vw,72px);
+  --ease:cubic-bezier(.16,1,.3,1);
+  --ease-soft:cubic-bezier(.25,.46,.45,.94);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{
+  margin:0;
+  background:var(--ink);
+  color:var(--cream);
+  font-family:var(--sans);
+  font-size:16px;
+  line-height:1.7;
+  font-weight:300;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  overflow-x:hidden;
+  text-rendering:optimizeLegibility;
+  font-kerning:normal;
+}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+input{font:inherit;color:inherit}
+h1,h2,h3,h4,h5,p,ul,ol,figure,blockquote,figcaption{margin:0}
+ul,ol{padding:0;list-style:none}
+table{border-collapse:collapse;width:100%}
+::selection{background:var(--oxblood);color:var(--cream)}
+:focus-visible{outline:2px solid var(--gold-soft);outline-offset:4px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.skip-link{
+  position:absolute;top:-100px;left:var(--gutter);z-index:9999;
+  background:var(--cream);color:var(--ink);
+  padding:14px 22px;font-size:11px;letter-spacing:.2em;
+  text-transform:uppercase;font-weight:500;
+  transition:top .3s var(--ease);
+}
+.skip-link:focus{top:16px}
+</style><style>
+.container{width:100%;max-width:var(--maxw);margin-inline:auto;padding-inline:var(--gutter)}
+.section{padding-block:clamp(74px,9vw,140px)}
+.section--tight{padding-block:clamp(56px,6.5vw,100px)}
+.section--cream{background:var(--cream);color:var(--text-ink)}
+.section--ivory{background:var(--ivory);color:var(--text-ink)}
+.section--ink{background:var(--ink);color:var(--cream)}
+.section--charcoal{background:var(--charcoal);color:var(--cream)}
+.section--wine{background:var(--oxblood);color:var(--cream)}
+
+.h2{font-family:var(--serif);font-optical-sizing:auto;font-weight:400;font-size:clamp(34px,5vw,72px);line-height:1;letter-spacing:-.03em}
+.body-copy{font-size:16px;line-height:1.76;font-weight:300}
+.section--cream .body-copy,.section--ivory .body-copy{color:var(--text-body)}
+.section--ink .body-copy,.section--charcoal .body-copy{color:var(--cream-mute)}
+
+.sec-label{display:flex;align-items:center;gap:14px;font-size:10px;font-weight:500;letter-spacing:.3em;text-transform:uppercase;color:var(--oxblood-bright);white-space:nowrap}
+.sec-label .num{font-family:var(--serif);font-optical-sizing:auto;font-size:13px;letter-spacing:.06em;color:var(--oxblood-bright);font-weight:500}
+.sec-label .line{width:34px;height:1px;background:currentColor;opacity:.5;flex:none}
+.section--ink .sec-label,.section--charcoal .sec-label,.section--wine .sec-label{color:var(--gold-soft)}
+.section--ink .sec-label .num,.section--charcoal .sec-label .num,.section--wine .sec-label .num{color:var(--gold-soft)}
+
+.btn{position:relative;display:inline-flex;align-items:center;justify-content:space-between;gap:22px;padding:18px 28px;font-size:10.5px;font-weight:500;letter-spacing:.22em;text-transform:uppercase;border:1px solid transparent;overflow:hidden;transition:color .5s var(--ease),border-color .5s var(--ease);isolation:isolate;font-family:var(--sans);cursor:pointer}
+.btn::before{content:"";position:absolute;inset:0;background:var(--oxblood-bright);transform:translateY(101%);transition:transform .55s var(--ease);z-index:-1}
+.btn .arrow{display:inline-block;transition:transform .5s var(--ease);font-size:14px;line-height:1}
+.btn:hover .arrow{transform:translateX(6px)}
+.btn--wine{background:var(--oxblood);color:var(--cream);border-color:var(--oxblood)}
+.btn--wine::before{background:var(--oxblood-bright)}
+.btn--wine:hover{color:#fff;border-color:var(--oxblood-bright)}
+.btn--wine:hover::before{transform:translateY(0)}
+.btn--outline-light{color:var(--cream);border-color:var(--rule-dark-strong)}
+.btn--outline-light::before{background:var(--cream)}
+.btn--outline-light:hover{color:var(--ink);border-color:var(--cream)}
+.btn--outline-light:hover::before{transform:translateY(0)}
+.btn--outline-dark{color:var(--text-ink);border-color:var(--rule-light-strong)}
+.btn--outline-dark::before{background:var(--ink)}
+.btn--outline-dark:hover{color:var(--cream);border-color:var(--ink)}
+.btn--outline-dark:hover::before{transform:translateY(0)}
+
+.link-u{display:inline-flex;align-items:center;gap:12px;font-size:10.5px;font-weight:500;letter-spacing:.22em;text-transform:uppercase;padding-bottom:8px;border-bottom:1px solid currentColor;transition:gap .45s var(--ease),color .4s var(--ease)}
+.link-u:hover{gap:20px}
+.section--cream .link-u,.section--ivory .link-u{color:var(--oxblood-bright)}
+.section--ink .link-u,.section--charcoal .link-u{color:var(--cream)}
+
+/* HEADER */
+.site-header{position:fixed;top:0;left:0;right:0;z-index:100;background:transparent;transition:background .5s var(--ease),border-color .5s var(--ease);border-bottom:1px solid transparent}
+.site-header.is-scrolled{background:rgba(10,9,8,.9);-webkit-backdrop-filter:blur(20px) saturate(140%);backdrop-filter:blur(20px) saturate(140%);border-bottom-color:var(--rule-dark)}
+.header-inner{max-width:var(--maxw);margin-inline:auto;padding:22px var(--gutter);display:flex;align-items:center;gap:clamp(18px,2.6vw,40px);transition:padding .5s var(--ease)}
+.site-header.is-scrolled .header-inner{padding-block:13px}
+
+.brand{display:flex;align-items:center;gap:14px;flex:none}
+.brand-slot{position:relative;width:52px;height:52px;flex:none;display:grid;place-items:center;background:rgba(239,230,214,.02);border:1px dashed rgba(176,141,82,.55);overflow:hidden;transition:border-color .45s var(--ease),background .45s var(--ease)}
+.brand-slot:hover{border-color:var(--gold);background:rgba(176,141,82,.05)}
+.brand-slot img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:5px;z-index:2}
+.brand-slot .slot-label{font-family:var(--sans);font-size:8.5px;font-weight:500;letter-spacing:.24em;text-transform:uppercase;color:rgba(214,186,134,.85);text-align:center;line-height:1.1;z-index:1;transition:opacity .3s var(--ease)}
+.brand-slot.has-logo{border-color:transparent;background:transparent}
+.brand-slot.has-logo .slot-label{opacity:0}
+.brand-slot.has-logo img{padding:0}
+
+.brand-text{display:flex;flex-direction:column;line-height:1.05}
+.brand-name{font-size:11px;font-weight:500;letter-spacing:.24em;text-transform:uppercase;color:var(--cream)}
+.brand-sub{font-size:8px;font-weight:400;letter-spacing:.38em;text-transform:uppercase;color:var(--cream-mute);margin-top:5px}
+
+.desktop-nav{display:flex;align-items:center;gap:clamp(12px,1.45vw,24px);margin-left:auto}
+.desktop-nav a{position:relative;font-size:10.5px;font-weight:400;letter-spacing:.16em;text-transform:uppercase;color:var(--cream-mute);padding:6px 0;white-space:nowrap;transition:color .4s var(--ease)}
+.desktop-nav a::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:var(--gold);transform:scaleX(0);transform-origin:right;transition:transform .5s var(--ease)}
+.desktop-nav a:hover{color:var(--cream)}
+.desktop-nav a:hover::after{transform:scaleX(1);transform-origin:left}
+.desktop-nav a.is-active{color:var(--cream)}
+.desktop-nav a.is-active::after{transform:scaleX(1);background:var(--oxblood-soft)}
+
+.header-cta{flex:none;padding:14px 24px;font-size:10px;letter-spacing:.18em}
+
+.menu-toggle{display:none;width:46px;height:46px;align-items:center;justify-content:center;flex-direction:column;gap:7px;margin-left:auto;flex:none;border:1px solid var(--rule-dark-strong);transition:border-color .4s var(--ease)}
+.menu-toggle:hover{border-color:var(--gold)}
+.menu-toggle span:not(.sr-only){display:block;width:20px;height:1px;background:var(--cream);transition:transform .45s var(--ease)}
+.menu-toggle[aria-expanded="true"] span:nth-child(1){transform:translateY(4px) rotate(45deg)}
+.menu-toggle[aria-expanded="true"] span:nth-child(2){transform:translateY(-4px) rotate(-45deg)}
+
+.mobile-menu{position:fixed;inset:0;z-index:99;background:var(--ink-2);padding:120px var(--gutter) 48px;display:flex;flex-direction:column;justify-content:space-between;gap:48px;overflow-y:auto;transform:translateY(-102%);visibility:hidden;transition:transform .65s var(--ease),visibility .65s var(--ease)}
+.mobile-menu.is-open{transform:translateY(0);visibility:visible}
+.mobile-menu nav{display:flex;flex-direction:column}
+.mobile-menu nav a{display:flex;align-items:baseline;gap:18px;padding:14px 0;border-bottom:1px solid var(--rule-dark);font-family:var(--serif);font-optical-sizing:auto;font-size:clamp(24px,6vw,32px);font-weight:400;letter-spacing:-.02em;color:var(--cream);transition:color .4s var(--ease),padding-left .4s var(--ease)}
+.mobile-menu nav a:hover,.mobile-menu nav a:focus-visible{color:var(--oxblood-soft);padding-left:8px}
+.mobile-menu nav a .num{font-family:var(--sans);font-size:9px;letter-spacing:.24em;color:var(--gold);flex:none}
+.mm-foot{border-top:1px solid var(--rule-dark);padding-top:28px;display:flex;flex-direction:column;gap:20px;align-items:flex-start}
+.mm-foot .eyebrow{font-size:10px;font-weight:500;letter-spacing:.3em;text-transform:uppercase;color:var(--cream-mute);line-height:1.4}
+.mm-mail{font-family:var(--serif);font-optical-sizing:auto;font-size:20px;color:var(--cream);word-break:break-word;border-bottom:1px solid var(--rule-dark-strong);padding-bottom:4px}
+body.menu-open{overflow:hidden}
+
+/* INSIGHTS HERO */
+.insights-hero{position:relative;padding-top:clamp(140px,17vh,190px);padding-bottom:clamp(48px,6vw,80px);overflow:hidden;background:radial-gradient(110% 80% at 92% 0%,rgba(90,15,26,.42) 0%,rgba(90,15,26,0) 55%),radial-gradient(60% 50% at 0% 100%,rgba(176,141,82,.08) 0%,rgba(176,141,82,0) 60%),var(--ink);border-bottom:1px solid var(--rule-dark)}
+.insights-hero::before{content:"";position:absolute;inset:0;background-image:linear-gradient(to right,rgba(239,230,214,.045) 1px,transparent 1px);background-size:25% 100%;pointer-events:none;mask-image:linear-gradient(to bottom,rgba(0,0,0,.7),transparent 80%);-webkit-mask-image:linear-gradient(to bottom,rgba(0,0,0,.7),transparent 80%)}
+.insights-hero-inner{position:relative;max-width:900px}
+.insights-hero .sec-label{margin-bottom:clamp(26px,3.4vw,38px)}
+.insights-hero-title{font-family:var(--serif);font-optical-sizing:auto;font-weight:300;font-size:clamp(40px,5.8vw,88px);line-height:.96;letter-spacing:-.038em;color:var(--cream);margin-bottom:clamp(24px,3.2vw,38px);text-wrap:balance}
+.insights-hero-title em{font-style:italic;color:var(--oxblood-soft);font-weight:300}
+.insights-hero-lede{font-size:clamp(16px,1.35vw,19px);line-height:1.75;color:var(--cream-mute);max-width:56ch}
+
+/* FEATURED ESSAY */
+.featured{background:var(--cream);color:var(--text-ink);padding-block:clamp(56px,7vw,96px);border-bottom:1px solid var(--rule-light-strong)}
+.featured-inner{display:grid;grid-template-columns:minmax(0,.38fr) minmax(0,.62fr);gap:clamp(32px,5vw,72px);align-items:center}
+.featured-cover{aspect-ratio:2/3;background:var(--charcoal-2);border:1px solid var(--rule-light-strong);overflow:hidden;box-shadow:0 30px 60px -30px rgba(20,17,16,.4);max-width:320px}
+.featured-cover img{width:100%;height:100%;object-fit:cover}
+.featured-tag{display:inline-block;font-size:9.5px;font-weight:600;letter-spacing:.28em;text-transform:uppercase;color:var(--oxblood-bright);border:1px solid var(--oxblood-bright);padding:7px 13px;margin-bottom:22px}
+.featured-meta{display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;font-size:10px;font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:var(--text-mute);margin-bottom:18px}
+.featured-meta .dot{width:3px;height:3px;background:currentColor;border-radius:50%;opacity:.55}
+.featured-title{font-family:var(--serif);font-optical-sizing:auto;font-weight:400;font-size:clamp(28px,4vw,52px);line-height:1.06;letter-spacing:-.028em;color:var(--text-ink);margin-bottom:22px;max-width:20ch}
+.featured-excerpt{font-size:16px;line-height:1.78;font-weight:300;color:var(--text-body);max-width:62ch;margin-bottom:28px}
+.featured-read{display:inline-flex;align-items:center;gap:12px;font-size:10.5px;font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:var(--oxblood-bright);padding-bottom:8px;border-bottom:1px solid var(--oxblood-bright);transition:gap .45s var(--ease)}
+.featured-read:hover{gap:20px}
+
+/* FILTER BAR */
+.filter-bar{background:var(--ivory);color:var(--text-ink);border-bottom:1px solid var(--rule-light-strong);padding-block:clamp(28px,3.4vw,40px);position:sticky;top:0;z-index:50}
+.filter-inner{display:flex;flex-wrap:wrap;align-items:center;gap:clamp(16px,2vw,28px)}
+.filter-label{font-size:10px;font-weight:600;letter-spacing:.26em;text-transform:uppercase;color:var(--text-mute);white-space:nowrap;flex:none}
+.filter-buttons{display:flex;flex-wrap:wrap;gap:8px}
+.filter-btn{font-family:var(--sans);font-size:10.5px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:var(--text-body);background:transparent;border:1px solid var(--rule-light-strong);padding:9px 15px;cursor:pointer;transition:background .35s var(--ease),color .35s var(--ease),border-color .35s var(--ease);white-space:nowrap}
+.filter-btn:hover{color:var(--oxblood-bright);border-color:var(--oxblood-bright)}
+.filter-btn.is-active{background:var(--oxblood);color:var(--cream);border-color:var(--oxblood)}
+.search-wrap{position:relative;margin-left:auto;flex:1;min-width:200px;max-width:320px}
+.search-wrap input{width:100%;background:#fff;border:1px solid var(--rule-light-strong);padding:10px 38px 10px 14px;font-family:var(--sans);font-size:12.5px;color:var(--text-ink);outline:none;transition:border-color .3s var(--ease)}
+.search-wrap input:focus{border-color:var(--oxblood-bright)}
+.search-wrap input::placeholder{color:var(--text-mute)}
+.search-icon{position:absolute;right:12px;top:50%;transform:translateY(-50%);width:14px;height:14px;stroke:var(--text-mute);stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+
+/* ARTICLE GRID */
+.article-grid-section{background:var(--cream);color:var(--text-ink);padding-block:clamp(56px,7vw,104px)}
+.article-grid-head{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;flex-wrap:wrap;margin-bottom:clamp(36px,4.5vw,56px)}
+.article-grid-head .h2{max-width:16ch;color:var(--text-ink)}
+.article-grid-head .h2 em{font-style:italic;color:var(--oxblood-bright)}
+.article-grid-head .count{font-size:11px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:var(--text-mute);padding-bottom:6px}
+.article-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(28px,3.4vw,48px)}
+.article-card{display:flex;flex-direction:column;border-top:1px solid var(--rule-light-strong);padding-top:26px;transition:border-color .5s var(--ease)}
+.article-card:hover{border-top-color:var(--oxblood-bright)}
+.article-card-cover{aspect-ratio:2/3;max-width:100px;background:var(--charcoal-2);border:1px solid var(--rule-light);overflow:hidden;margin-bottom:20px}
+.article-card-cover img{width:100%;height:100%;object-fit:cover}
+.article-card-meta{display:flex;flex-wrap:wrap;align-items:center;gap:9px 14px;font-size:9px;font-weight:500;letter-spacing:.24em;text-transform:uppercase;color:var(--text-mute);margin-bottom:14px}
+.article-card-meta .cat{color:var(--oxblood-bright)}
+.article-card-meta .dot{width:3px;height:3px;background:currentColor;border-radius:50%;opacity:.55}
+.article-card-title{font-family:var(--serif);font-optical-sizing:auto;font-weight:400;font-size:clamp(20px,2.2vw,26px);line-height:1.18;letter-spacing:-.022em;color:var(--text-ink);margin-bottom:12px;transition:color .45s var(--ease)}
+.article-card:hover .article-card-title{color:var(--oxblood-bright)}
+.article-card-excerpt{font-size:14px;line-height:1.72;font-weight:300;color:var(--text-body);margin-bottom:20px}
+.article-card-read{margin-top:auto;display:inline-flex;align-items:center;gap:10px;font-size:10px;font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:var(--oxblood-bright)}
+.article-card-read .arrow{transition:transform .5s var(--ease)}
+.article-card:hover .article-card-read .arrow{transform:translateX(6px)}
+
+/* EMPTY STATE */
+.empty-state{grid-column:1 / -1;text-align:center;padding-block:clamp(48px,6vw,80px);color:var(--text-mute)}
+.empty-state svg{width:40px;height:40px;stroke:var(--rule-light-strong);stroke-width:1.4;fill:none;stroke-linecap:round;stroke-linejoin:round;margin:0 auto 20px}
+.empty-state p{font-family:var(--serif);font-style:italic;font-size:18px;color:var(--text-body);margin-bottom:8px}
+.empty-state small{display:block;font-size:12px;letter-spacing:.06em;color:var(--text-mute)}
+
+/* CLOSING NOTE */
+.closing-note{background:var(--ivory);color:var(--text-ink);padding-block:clamp(56px,7vw,88px);text-align:center;border-top:1px solid var(--rule-light-strong)}
+.closing-note .sec-label{justify-content:center;margin-bottom:clamp(24px,3vw,34px)}
+.closing-note .h2{color:var(--text-ink);max-width:19ch;margin-inline:auto;text-wrap:balance}
+.closing-note .h2 em{font-style:italic;color:var(--oxblood-bright)}
+.closing-note p{max-width:52ch;margin:clamp(22px,2.8vw,32px) auto 0;color:var(--text-body);font-size:15.5px;line-height:1.8}
+.closing-actions{margin-top:clamp(30px,4vw,42px);display:flex;flex-wrap:wrap;gap:14px;justify-content:center}
+
+/* CTA */
+.cta{position:relative;overflow:hidden;background:radial-gradient(90% 110% at 50% 110%,rgba(90,15,26,.65) 0%,rgba(90,15,26,0) 60%),var(--ink);text-align:center;border-top:1px solid var(--rule-dark)}
+.cta-inner{position:relative;z-index:2}
+.cta .sec-label{justify-content:center;margin-bottom:clamp(26px,3.4vw,38px)}
+.cta .h2{color:var(--cream);font-size:clamp(36px,5.6vw,84px);max-width:17ch;margin-inline:auto;line-height:1.02;text-wrap:balance}
+.cta .h2 em{font-style:italic;color:var(--oxblood-soft)}
+.cta p{max-width:50ch;margin:28px auto 0;color:var(--cream-mute);font-weight:300;font-size:16px;line-height:1.78}
+.cta-actions{margin-top:clamp(36px,4.4vw,54px);display:flex;flex-wrap:wrap;gap:14px;justify-content:center}
+.cta-mail{display:inline-block;margin-top:34px;font-family:var(--serif);font-optical-sizing:auto;font-style:italic;font-size:clamp(19px,2.1vw,25px);color:var(--cream);padding-bottom:5px;border-bottom:1px solid var(--rule-dark-strong);transition:color .4s var(--ease),border-color .4s var(--ease)}
+.cta-mail:hover{color:var(--gold-soft);border-color:var(--gold)}
+
+/* FOOTER */
+.site-footer{background:var(--ink-2);border-top:1px solid var(--rule-dark);padding-top:clamp(58px,7vw,96px)}
+.footer-top{display:grid;grid-template-columns:1.6fr 1fr 1fr 1.2fr;gap:clamp(28px,4vw,60px);padding-bottom:clamp(42px,5vw,68px)}
+.footer-brand .brand{margin-bottom:22px}
+.footer-brand .tagline{font-family:var(--serif);font-optical-sizing:auto;font-style:italic;font-size:19px;line-height:1.5;letter-spacing:-.015em;color:var(--cream);margin-bottom:16px;max-width:24ch}
+.footer-brand p{font-size:13.5px;line-height:1.75;font-weight:300;color:var(--cream-mute);max-width:38ch}
+.footer-col h5{font-size:9.5px;font-weight:600;letter-spacing:.28em;text-transform:uppercase;color:var(--cream);margin-bottom:22px}
+.footer-col ul{display:flex;flex-direction:column;gap:12px}
+.footer-col a,.footer-col .pending{font-size:13.5px;font-weight:300;color:var(--cream-mute);transition:color .4s var(--ease)}
+.footer-col a:hover{color:var(--cream)}
+.footer-col .pending{opacity:.7;cursor:default}
+.footer-mail{display:inline-block;font-family:var(--serif);font-optical-sizing:auto;font-style:italic;font-size:18px;color:var(--cream);border-bottom:1px solid var(--rule-dark-strong);padding-bottom:4px;margin-bottom:20px;word-break:break-word;transition:color .4s var(--ease),border-color .4s var(--ease)}
+.footer-mail:hover{color:var(--gold-soft);border-color:var(--gold)}
+.footer-note{font-size:12px;line-height:1.7;font-weight:300;color:var(--cream-mute);opacity:.85}
+.footer-bottom{border-top:1px solid var(--rule-dark);padding-block:28px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px 30px;font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--cream-mute)}
+.footer-bottom nav{display:flex;flex-wrap:wrap;gap:8px 26px}
+.footer-bottom a{transition:color .4s var(--ease)}
+.footer-bottom a:hover{color:var(--cream)}
+
+/* REVEAL */
+.reveal{transition:opacity .7s var(--ease),transform .7s var(--ease)}
+html.js .reveal{opacity:0;transform:translateY(22px)}
+html.js .reveal.is-visible{opacity:1;transform:none}
+html.js .reveal[data-delay="1"]{transition-delay:.07s}
+html.js .reveal[data-delay="2"]{transition-delay:.14s}
+html.js .reveal[data-delay="3"]{transition-delay:.21s}
+
+/* RESPONSIVE */
+@media (max-width:1240px){.header-cta{display:none}}
+@media (max-width:1080px){
+  .desktop-nav{display:none}.menu-toggle{display:flex}
+  .featured-inner{grid-template-columns:1fr;gap:28px}
+  .featured-cover{max-width:240px;margin-inline:auto}
+  .article-grid{grid-template-columns:repeat(2,1fr)}
+  .footer-top{grid-template-columns:1fr 1fr}
+}
+@media (max-width:880px){
+  .filter-inner{flex-direction:column;align-items:flex-start}
+  .search-wrap{margin-left:0;max-width:none;width:100%}
+}
+@media (max-width:620px){
+  .insights-hero{padding-top:120px}
+  .article-grid{grid-template-columns:1fr}
+  .featured-cover{max-width:180px}
+  .filter-buttons{width:100%}
+  .filter-btn{flex:1 1 auto;justify-content:center;text-align:center}
+  .footer-top{grid-template-columns:1fr;gap:36px}
+  .footer-bottom{flex-direction:column;align-items:flex-start}
+  .brand-sub{letter-spacing:.3em}
+  .brand-slot{width:46px;height:46px}
+}
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.001ms !important;animation-iteration-count:1 !important;transition-duration:.001ms !important}
+  html.js .reveal{opacity:1;transform:none}
+}
+</style></head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============================================================
+     HEADER
+     ============================================================ -->
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+
+    <a class="brand" href="index.html" aria-label="Edigha Francisca Literary Solutions: Home">
+     <span class="brand-slot" id="headerLogoSlot">
+  <img src="edigha.png" alt="Edigha Francisca Literary Solutions" width="52" height="52"
+       onload="this.closest('.brand-slot').classList.add('has-logo')"
+       onerror="this.style.display='none'">
+  <span class="slot-label">Logo</span>
+</span>
+      <span class="brand-text">
+        <span class="brand-name">Edigha Francisca</span>
+        <span class="brand-sub">Literary Solutions</span>
+      </span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="approach.html">Approach</a>
+      <a href="research.html">Research</a>
+      <a href="insights.html" class="is-active" aria-current="page">Insights</a>
+      <a href="resources.html">Resources</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <a class="btn btn--wine header-cta" href="contact.html">
+      Discuss Your Book <span class="arrow" aria-hidden="true">&rarr;</span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open navigation menu">
+      <span aria-hidden="true"></span><span aria-hidden="true"></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============================================================
+     MOBILE MENU
+     ============================================================ -->
+<div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+  <nav aria-label="Mobile navigation">
+    <a href="index.html"><span class="num">01</span> Home</a>
+    <a href="about.html"><span class="num">02</span> About</a>
+    <a href="services.html"><span class="num">03</span> Services</a>
+    <a href="approach.html"><span class="num">04</span> Approach</a>
+    <a href="research.html"><span class="num">05</span> Research</a>
+    <a href="insights.html"><span class="num">06</span> Insights</a>
+    <a href="resources.html"><span class="num">07</span> Resources</a>
+    <a href="faq.html"><span class="num">08</span> FAQ</a>
+    <a href="contact.html"><span class="num">09</span> Contact</a>
+  </nav>
+  <div class="mm-foot">
+    <p class="eyebrow">Begin a conversation</p>
+    <a class="mm-mail" href="mailto:edighafrancisca@gmail.com">edighafrancisca@gmail.com</a>
+    <a class="btn btn--wine" href="contact.html">Discuss Your Book <span class="arrow" aria-hidden="true">&rarr;</span></a>
+  </div>
+</div>
+
+<main id="main">
+
+<!-- ============================================================
+     INSIGHTS HERO
+     ============================================================ -->
+<section class="insights-hero" aria-labelledby="insights-hero-title">
+  <div class="container">
+    <div class="insights-hero-inner">
+      <p class="sec-label"><span class="line" aria-hidden="true"></span><span>Insights</span></p>
+      <h1 class="insights-hero-title" id="insights-hero-title">
+        Notes on <em>discovery.</em>
+      </h1>
+      <p class="insights-hero-lede">
+        Essays on how books are found, understood and chosen. Written for authors who want to
+        think carefully about the conditions that decide whether a book reaches the reader it
+        was written for, and who would rather read a considered argument than a list of tips.
+      </p>
+    </div>
+  </div>
+</section><!-- ============================================================
+     FEATURED ESSAY
+     ============================================================ -->
+<section class="featured" aria-labelledby="featured-title">
+  <div class="container">
+    <div class="featured-inner">
+
+      <div class="featured-cover">
+        <img src="https://covers.openlibrary.org/b/isbn/9781538742570-L.jpg"
+             alt="The Housemaid by Freida McFadden"
+             width="300" height="450" loading="lazy"
+             onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 300%22><rect width=%22200%22 height=%22300%22 fill=%22%231E1B19%22/><text x=%22100%22 y=%22150%22 fill=%22%23EFE6D6%22 font-family=%22Georgia,serif%22 font-size=%2214%22 text-anchor=%22middle%22>The Housemaid</text></svg>'">
+      </div>
+
+      <div class="featured-body">
+        <span class="featured-tag">Featured Essay</span>
+
+        <div class="featured-meta">
+          <span>Strategy</span>
+          <span class="dot" aria-hidden="true"></span>
+          <span>12 November 2026</span>
+          <span class="dot" aria-hidden="true"></span>
+          <span>6 min read</span>
+        </div>
+
+        <h2 class="featured-title" id="featured-title">
+          Why publishing a book is only the beginning of its discovery journey
+        </h2>
+
+        <p class="featured-excerpt">
+          The day a book is published, a small ceremony happens. A file uploads. A page appears.
+          A link is shared. And then the quiet begins. Most authors are unprepared for this
+          quiet, because the work they have spent years on is finished, and the work of being
+          found has not yet started. The gap between those two things is where most books
+          disappear. This essay is about that gap, and about the conditions a reader passes
+          through before a book is chosen. It is not a guide to promotion. It is a map of the
+          ground a book must cross.
+        </p>
+
+        <a class="featured-read" href="#">
+          Read the essay <span class="arrow" aria-hidden="true">&rarr;</span>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FILTER BAR WITH SEARCH
+     ============================================================ -->
+<div class="filter-bar" role="region" aria-label="Filter articles">
+  <div class="container">
+    <div class="filter-inner">
+
+      <span class="filter-label">Filter</span>
+
+      <div class="filter-buttons" role="group" aria-label="Categories">
+        <button class="filter-btn is-active" data-filter="all" type="button">All</button>
+        <button class="filter-btn" data-filter="strategy" type="button">Strategy</button>
+        <button class="filter-btn" data-filter="amazon" type="button">Amazon</button>
+        <button class="filter-btn" data-filter="positioning" type="button">Positioning</button>
+        <button class="filter-btn" data-filter="presentation" type="button">Presentation</button>
+      </div>
+
+      <label class="search-wrap">
+        <span class="sr-only">Search articles</span>
+        <input type="search" id="articleSearch" placeholder="Search by title or phrase" autocomplete="off">
+        <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="11" cy="11" r="7"/>
+          <line x1="16" y1="16" x2="21" y2="21"/>
+        </svg>
+      </label>
+
+    </div>
+  </div>
+</div><!-- ============================================================
+     ARTICLE GRID
+     ============================================================ -->
+<section class="article-grid-section" aria-labelledby="archive-title">
+  <div class="container">
+
+    <div class="article-grid-head">
+      <h2 class="h2 reveal" id="archive-title">The <em>archive</em></h2>
+      <span class="count reveal" data-delay="1" id="articleCount">Seven essays</span>
+    </div>
+
+    <div class="article-grid" id="articleGrid">
+
+      <!-- 01 -->
+      <article class="article-card reveal" data-category="strategy">
+        <div class="article-card-cover">
+          <img src="https://covers.openlibrary.org/b/isbn/9781538742570-L.jpg"
+               alt="The Housemaid by Freida McFadden"
+               width="200" height="300" loading="lazy"
+               onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 300%22><rect width=%22200%22 height=%22300%22 fill=%22%231E1B19%22/><text x=%22100%22 y=%22150%22 fill=%22%23EFE6D6%22 font-family=%22Georgia,serif%22 font-size=%2212%22 text-anchor=%22middle%22>The Housemaid</text></svg>'">
+        </div>
+        <div class="article-card-meta">
+          <span class="cat">Strategy</span>
+          <span class="dot" aria-hidden="true"></span>
+          <span>12 Nov 2026</span>
+          <span class="dot" aria-hidden="true"></span>
+          <span>6 min read</span>
+        </div>
+        <h3 class="article-card-title">Why publishing a book is only the beginning of its discovery journey</h3>
+        <p class="article-card-excerpt">
+          Publication marks the start of a book's public life, not the end of its marketing.
+          Here is what happens after the upload, and why the quiet that follows is not a failure
+          but a condition to work with.
+        </p>
+        <a class="article-card-read" href="#">Read the essay <span class="arrow" aria-hidden="true">&rarr;</span></a>
+      </article>
+
+      <!-- 02 -->
+      <article class="article-card reveal" data-category="amazon" data-delay="1">
+        <div class="article-card-cover">
+          <img src="https://covers.openlibrary.org/b/isbn/9781250301697-L.jpg"
+               alt="The Silent Patient by Alex Michaelides"
+               width="200" height="300" loading="lazy"
+               onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 300%22><rect width=%22200%22 height=%22300%22 fill=%22%231E1B19%22/><text x=%22100%22 y=%22150%22 fill=%22%23EFE6D6%22 font-family=%22Georgia,serif%22 font-size=%2212%22 text-anchor=%22middle%22>Silent Patient</text></svg>'">
+        </div>
+        <div class="article-card-meta">
+          <span class="cat">Amazon</span>
+          <span class="dot" aria-hidden="true"></span>
+          <span>08 Nov 2026</span>
+          <span class="dot" aria-hidden="true"></span>
+          <span>5 min read</span>
+        </div>
+        <h3 class="article-card-title">How Amazon keywords influence book discoverability</h3>
+        <p class="article-card-excerpt">
+          A keyword is not a tag. A tag describes a book. A keyword describes a reader, in the
+          moment before they know they want one. Keyword research begins by listening to that
+          search.
+        </p>
+        <a class="article-card-read" href="#">Read the essay <span class="arrow" aria-hidden="true">&rarr;</span></a>
+      </article>
+
+      <!-- 03 -->
+      <article class="article-card reveal" data-category="positioning" data-delay="2">
+        <div class="article-card-cover">
+          <img src="https://covers.openlibrary.org/b/isbn/9780307588371-L.jpg"
+               alt="Gone Girl by Gillian Flynn"
+               width="200" height="300" loading="lazy"
+               onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 300%22><rect width=%22200%22 height=%22300%22 fill=%22%231E1B19%22/><text x=%22100%22 y=%22150%22 fill=%22%23EFE6D6%22 font-family=%22Georgia,serif%22 font-size=%2212%22 text-anchor=%22middle%22>Gone Girl</text></svg>'">
+        </div>
+        <div class="article-card-meta">
+          <span class="cat">Positioning</span>
+          <span class="dot" aria-hidden="true"></span>
+          <span>03 Nov 2026</span>
+          <span class="dot" aria-hidden="true"></span>
+          <span>6 min read</span>
+        </div>
+        <h3 class="article-card-title">Why book categories matter</h3>
+        <p class="article-card-excerpt">
+          A category is not a filing cabinet. It is a shop window. The category a book is placed
+          in decides which window the reader stops at, and how the book is understood before a
+          page is read.
+        </p>
+        <a class="article-card-read" href="#">Read the essay <span class="arrow" aria-hidden="true">&rarr;</span></a>
+      </article>
+
+      <!-- 04 -->
+      <article class="article-card reveal" data-category="strategy">
+        <div class="article-card-cover">
+          <img src="https://covers.openlibrary.org/b/isbn/9781538724736-L.jpg"
+               alt="Verity by Colleen Hoover"
+               width="200" height="300" loading="lazy"
+               onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 300%22><rect width=%22200%22 height=%22300%22 fill=%22%231E1B19%22/><text x=%22100%22 y=%22150%22 fill=%22%23EFE6D6%22 font-family=%22Georgia,serif%22 font-size=%2212%22 text-anchor=%22middle%22>Verity</text></svg>'">
+        </div>
+        <div class="article-card-meta">
+          <span class="cat">Strategy</span>
+          <span class="dot" aria-hidden="true"></span>
+          <span>28 Oct 2026</span>
+          <span class="dot" aria-hidden="true"></span>
+          <span>7 min read</span>
+        </div>
+        <h3 class="article-card-title">The difference between book marketing and strategic book positioning</h3>
+        <p class="article-card-excerpt">
+          Marketing asks how to reach readers. Positioning asks which readers the book is
+          actually for. The second question comes first, and most marketing fails because it is
+          asked second, or not at all.
+        </p>
+        <a class="article-card-read" href="#">Read the essay <span class="arrow" aria-hidden="true">&rarr;</span></a>
+      </article>
+
+      <!-- 05 -->
+      <article class="article-card reveal" data-category="amazon">
+        <div class="article-card-cover">
+          <img src="https://covers.openlibrary.org/b/isbn/9781501110368-L.jpg"
+               alt="It Ends with Us by Colleen Hoover"
+               width="200" height="300" loading="lazy"
+               onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 300%22><rect width=%22200%22 height=%22300%22 fill=%22%231E1B19%22/><text x=%22100%22 y=%22150%22 fill=%22%23EFE6D6%22 font-family=%22Georgia,serif%22 font-size=%2212%22 text-anchor=%22middle%22>It Ends with Us</text></svg>'">
+        </div>
+        <div class="article-card-meta">
+          <span class="cat">Amazon</span>
+          <span class="dot" aria-hidden="true"></span>
+          <span>22 Oct 2026</span>
+          <span class="dot" aria-hidden="true"></span>
+          <span>5 min read</span>
+        </div>
+        <h3 class="article-card-title">How authors can improve their Amazon author presence</h3>
+        <p class="article-card-excerpt">
+          The author page is the least studied page in a book's listing, and often the most read
+          after the sample. A page that has not moved in years reads as inactive, even when the
+          author is not.
+        </p>
+        <a class="article-card-read" href="#">Read the essay <span class="arrow" aria-hidden="true">&rarr;</span></a>
+      </article>
+
+      <!-- 06 -->
+      <article class="article-card reveal" data-category="presentation" data-delay="1">
+        <div class="article-card-cover">
+          <img src="https://covers.openlibrary.org/b/isbn/9781594634024-L.jpg"
+               alt="The Girl on the Train by Paula Hawkins"
+               width="200" height="300" loading="lazy"
+               onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 300%22><rect width=%22200%22 height=%22300%22 fill=%22%231E1B19%22/><text x=%22100%22 y=%22150%22 fill=%22%23EFE6D6%22 font-family=%22Georgia,serif%22 font-size=%2212%22 text-anchor=%22middle%22>Girl on the Train</text></svg>'">
+        </div>
+        <div class="article-card-meta">
+          <span class="cat">Presentation</span>
+          <span class="dot" aria-hidden="true"></span>
+          <span>16 Oct 2026</span>
+          <span class="dot" aria-hidden="true"></span>
+          <span>4 min read</span>
+        </div>
+        <h3 class="article-card-title">Why a strong book description matters</h3>
+        <p class="article-card-excerpt">
+          A book description is not a summary. A summary tells the reader what happens. A
+          description makes the reader feel what it would be like to be inside the book. The two
+          are different crafts.
+        </p>
+        <a class="article-card-read" href="#">Read the essay <span class="arrow" aria-hidden="true">&rarr;</span></a>
+      </article>
+
+      <!-- 07 -->
+      <article class="article-card reveal" data-category="presentation" data-delay="2">
+        <div class="article-card-cover">
+          <img src="https://covers.openlibrary.org/b/isbn/9780307744432-L.jpg"
+               alt="The Night Circus by Erin Morgenstern"
+               width="200" height="300" loading="lazy"
+               onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 300%22><rect width=%22200%22 height=%22300%22 fill=%22%231E1B19%22/><text x=%22100%22 y=%22150%22 fill=%22%23EFE6D6%22 font-family=%22Georgia,serif%22 font-size=%2212%22 text-anchor=%22middle%22>Night Circus</text></svg>'">
+        </div>
+        <div class="article-card-meta">
+          <span class="cat">Presentation</span>
+          <span class="dot" aria-hidden="true"></span>
+          <span>09 Oct 2026</span>
+          <span class="dot" aria-hidden="true"></span>
+          <span>7 min read</span>
+        </div>
+        <h3 class="article-card-title">The relationship between a book's cover, positioning and reader expectations</h3>
+        <p class="article-card-excerpt">
+          A cover is not an image. It is a promise. A cover that promises one thing and a page
+          that promises another creates a gap the reader cannot resolve, and that gap is where
+          the click is lost.
+        </p>
+        <a class="article-card-read" href="#">Read the essay <span class="arrow" aria-hidden="true">&rarr;</span></a>
+      </article>
+
+      <!-- EMPTY STATE -->
+      <div class="empty-state" id="emptyState" hidden>
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="11" cy="11" r="7"/>
+          <line x1="16" y1="16" x2="21" y2="21"/>
+        </svg>
+        <p>No essays match this search.</p>
+        <small>Try a different phrase, or clear the filter.</small>
+      </div>
+
+    </div>
+
+  </div>
+</section><!-- ============================================================
+     CLOSING NOTE
+     ============================================================ -->
+<section class="section closing-note" aria-labelledby="closing-title">
+  <div class="container">
+    <p class="sec-label"><span class="line" aria-hidden="true"></span><span>More essays</span></p>
+    <h2 class="h2" id="closing-title">
+      New essays appear <em>regularly.</em>
+    </h2>
+    <p>
+      Each essay is written for the practice, not for the algorithm. They are long enough to
+      argue a point, and they are marked by their publication date so that a reader can see when
+      an argument was made. If you would like to be notified when a new essay is published, the
+      newsletter on the contact page is the only place we send them.
+    </p>
+    <div class="closing-actions">
+      <a class="btn btn--wine" href="contact.html">Join the Newsletter <span class="arrow" aria-hidden="true">&rarr;</span></a>
+      <a class="btn btn--outline-dark" href="research.html">See the Research <span class="arrow" aria-hidden="true">&rarr;</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CTA
+     ============================================================ -->
+<section class="section cta" aria-labelledby="cta-title">
+  <div class="container cta-inner">
+    <p class="sec-label"><span class="line" aria-hidden="true"></span><span>Begin</span></p>
+    <h2 class="h2" id="cta-title">
+      Read widely. <em>Then tell us about your book.</em>
+    </h2>
+    <p>
+      No package, no price list, no obligation. A conversation about the book, the readers it
+      was written for, and whether this work is the right next step for it.
+    </p>
+    <div class="cta-actions">
+      <a class="btn btn--wine" href="contact.html">Discuss Your Book <span class="arrow" aria-hidden="true">&rarr;</span></a>
+      <a class="btn btn--outline-light" href="services.html">Explore Services <span class="arrow" aria-hidden="true">&rarr;</span></a>
+    </div>
+    <a class="cta-mail" href="mailto:edighafrancisca@gmail.com">edighafrancisca@gmail.com</a>
+  </div>
+</section>
+
+</main>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer class="site-footer">
+  <div class="container">
+
+    <div class="footer-top">
+
+      <div class="footer-brand">
+        <a class="brand" href="index.html" aria-label="Edigha Francisca Literary Solutions: Home">
+          <span class="brand-slot">
+            <img src="edigha.png" alt="" width="52" height="52"
+                 onload="this.closest('.brand-slot').classList.add('has-logo')" onerror="this.remove()">
+            <span class="slot-label">Logo</span>
+          </span>
+          <span class="brand-text">
+            <span class="brand-name">Edigha Francisca</span>
+            <span class="brand-sub">Literary Solutions</span>
+          </span>
+        </a>
+        <p class="tagline">Where Literary Vision Meets Strategic Discovery.</p>
+        <p>
+          An independent literary consultancy working with authors worldwide on book marketing,
+          Amazon discoverability, and author growth.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h5>Navigate</h5>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="approach.html">Approach</a></li>
+          <li><a href="research.html">Research</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>More</h5>
+        <ul>
+          <li><a href="insights.html">Insights</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <a class="footer-mail" href="mailto:edighafrancisca@gmail.com">edighafrancisca@gmail.com</a>
+        <ul>
+          <li><span class="pending">Facebook</span></li>
+          <li><span class="pending">X / Twitter</span></li>
+        </ul>
+        <p class="footer-note" style="margin-top:20px">
+          Social profiles will be linked once the official accounts are confirmed.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; <span id="year">2025</span> Edigha Francisca Literary Solutions</p>
+      <nav aria-label="Legal">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="contact.html">Discuss Your Book</a>
+      </nav>
+    </div>
+
+  </div>
+</footer>
+
+<script>
+(function () {
+  'use strict';
+
+  /* Footer year */
+  var yearEl = document.getElementById('year');
+  if (yearEl) { yearEl.textContent = new Date().getFullYear(); }
+
+  /* Header scroll state */
+  var header = document.getElementById('siteHeader');
+  var lastScrolled = null;
+  function onScroll() {
+    var s = window.scrollY > 48;
+    if (s !== lastScrolled && header) {
+      header.classList.toggle('is-scrolled', s);
+      lastScrolled = s;
+    }
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  /* Mobile menu */
+  var toggle = document.getElementById('menuToggle');
+  var menu = document.getElementById('mobileMenu');
+  function setMenu(open) {
+    if (!toggle || !menu) return;
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    toggle.setAttribute('aria-label', open ? 'Close navigation menu' : 'Open navigation menu');
+    menu.setAttribute('aria-hidden', open ? 'false' : 'true');
+    menu.classList.toggle('is-open', open);
+    document.body.classList.toggle('menu-open', open);
+    if (open) {
+      var f = menu.querySelector('a');
+      if (f) window.setTimeout(function () { f.focus(); }, 420);
+    }
+  }
+  if (toggle && menu) {
+    toggle.addEventListener('click', function () {
+      setMenu(toggle.getAttribute('aria-expanded') !== 'true');
+    });
+    menu.querySelectorAll('a').forEach(function (a) {
+      a.addEventListener('click', function () { setMenu(false); });
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && menu.classList.contains('is-open')) {
+        setMenu(false); toggle.focus();
+      }
+    });
+    window.addEventListener('resize', function () {
+      if (window.innerWidth > 1080 && menu.classList.contains('is-open')) setMenu(false);
+    });
+  }
+
+  /* Scroll reveal */
+  var revealEls = document.querySelectorAll('.reveal');
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (!('IntersectionObserver' in window) || reduce) {
+    revealEls.forEach(function (el) { el.classList.add('is-visible'); });
+  } else {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) {
+          en.target.classList.add('is-visible');
+          io.unobserve(en.target);
+        }
+      });
+    }, { threshold: 0.08, rootMargin: '0px 0px -60px 0px' });
+    revealEls.forEach(function (el) { io.observe(el); });
+  }
+  window.setTimeout(function () {
+    revealEls.forEach(function (el) {
+      if (!el.classList.contains('is-visible')) el.classList.add('is-visible');
+    });
+  }, 3000);
+
+  /* ============================================================
+     Article filter and search
+     ============================================================ */
+  var searchInput = document.getElementById('articleSearch');
+  var filterButtons = document.querySelectorAll('[data-filter]');
+  var cards = document.querySelectorAll('.article-card');
+  var emptyState = document.getElementById('emptyState');
+  var countEl = document.getElementById('articleCount');
+  var grid = document.getElementById('articleGrid');
+
+  var activeCategory = 'all';
+  var searchTerm = '';
+
+  function updateCount(visible, total) {
+    if (!countEl) return;
+    if (visible === 0) {
+      countEl.textContent = 'No essays match';
+    } else if (visible === 1) {
+      countEl.textContent = '1 essay';
+    } else if (visible === total) {
+      countEl.textContent = total + ' essays';
+    } else {
+      countEl.textContent = visible + ' of ' + total + ' essays';
+    }
+  }
+
+  function applyFilters() {
+    var visible = 0;
+    var total = cards.length;
+
+    cards.forEach(function (card) {
+      var cat = card.getAttribute('data-category') || '';
+      var text = (card.textContent || '').toLowerCase();
+      var matchesCategory = (activeCategory === 'all' || cat === activeCategory);
+      var matchesSearch = (searchTerm === '' || text.indexOf(searchTerm) !== -1);
+      var show = matchesCategory && matchesSearch;
+
+      if (show) {
+        card.style.display = '';
+        visible++;
+      } else {
+        card.style.display = 'none';
+      }
+    });
+
+    if (emptyState) {
+      emptyState.hidden = visible > 0;
+    }
+
+    updateCount(visible, total);
+  }
+
+  if (filterButtons.length) {
+    filterButtons.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        filterButtons.forEach(function (b) { b.classList.remove('is-active'); });
+        btn.classList.add('is-active');
+        activeCategory = btn.getAttribute('data-filter') || 'all';
+        applyFilters();
+      });
+    });
+  }
+
+  if (searchInput) {
+    searchInput.addEventListener('input', function (e) {
+      searchTerm = (e.target.value || '').toLowerCase().trim();
+      applyFilters();
+    });
+    searchInput.addEventListener('search', function (e) {
+      if (!e.target.value) {
+        searchTerm = '';
+        applyFilters();
+      }
+    });
+  }
+
+  applyFilters();
+
+})();
+</script>
+</body>
+</html>
